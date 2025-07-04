@@ -70,7 +70,7 @@ ul li {
 }
 
 .btn-2 {
-    background-color: rgba(34, 34, 34, 1);
+    background-color: rgba(48, 48, 48, 0.54);
     border: 1px solid white;
 
 }
@@ -102,7 +102,7 @@ ul li {
     width: 50px;
     height: 50px;
     background-color: rgba(230, 83, 60, 1);
-    ;
+    margin-top: 14%;
     border-radius: 50%;
 }
 
@@ -115,4 +115,87 @@ ul li {
     margin-left: -30%;
     margin-top: 29%;
     display: flex;
+    gap: 5%;
+}
+
+/* part-1 */
+
+.part-1 {
+    background-color: black;
+    margin-top: 10%;
+}
+
+.part-1-text {
+    text-align: center;
+    padding-top: 20%;
+}
+
+.font-size {
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+}
+
+.part-1-text p {
+    padding-top: -5%;
+}
+
+.part-1-box {
+    max-width: 80%;
+    margin: 10% auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.part-1-box img {
+    border-radius: 50%;
+}
+
+.part-1-box h2 {
+    color: white;
+
+}
+
+.part-2 {
+    background-color: rgba(34, 34, 34, 1);
+
+}
+
+.part-2-container {
+    max-width: 80%;
+    margin: 8% auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(34, 34, 34, 1);
+
+}
+
+.part-2-container img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.part-2-text {
+    max-width: 35%;
+}
+
+.part-3 {
+    max-width: 80%;
+    margin: 0px auto;
+}
+
+.part-3-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 100%;
+    margin: 0px auto;
+}
+
+.part-3-container img {
+    width: 100%;
+}
+.img-1{
+    column-span: 2fr;
 }
