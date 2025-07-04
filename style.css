@@ -1,0 +1,118 @@
+/* shered style */
+.color {
+    color: rgba(230, 83, 60, 1);
+}
+
+.color-2 {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+body {
+    background-color: rgba(34, 34, 34, 1);
+}
+
+header {
+    background-color: rgba(119, 119, 119, 0);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    max-width: 80%;
+    margin: 3% auto;
+    justify-content: space-between;
+}
+
+.nav-heading {
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    color: rgba(255, 255, 255, 1);
+    list-style: none;
+    padding-right: 5%;
+    margin-right: 40px;
+}
+
+.btn-primary {
+    background-color: rgba(230, 83, 60, 1);
+    padding: 10px 25px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+}
+
+.btn-mt {
+    margin-top: -3%;
+
+}
+
+.header-heading {
+    font-size: 4rem;
+    font-weight: bolder;
+    color: white;
+}
+
+.header-container {
+    display: flex;
+    max-width: 80%;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+
+.header-text {
+    max-width: 40%;
+}
+
+.btn-2 {
+    background-color: rgba(34, 34, 34, 1);
+    border: 1px solid white;
+
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 170px;
+    height: 90px;
+    color: white;
+    border-radius: 10px;
+    padding: 0px 10px;
+    margin-top: -124%;
+    margin-left: 71%;
+
+}
+
+.small-heading {
+    font-size: 3.5rem;
+    font-weight: bolder;
+
+}
+
+.small-text {
+    margin-top: -45px;
+
+}
+
+.ball {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(230, 83, 60, 1);
+    ;
+    border-radius: 50%;
+}
+
+.box-2 {
+    background-color: rgba(48, 48, 48, 0.54);
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 150px;
+    margin-left: -30%;
+    margin-top: 29%;
+    display: flex;
+}
