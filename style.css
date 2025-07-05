@@ -3,6 +3,10 @@
     color: rgba(230, 83, 60, 1);
 }
 
+.white {
+    color: white;
+}
+
 .color-2 {
     color: rgba(255, 255, 255, 0.5);
 }
@@ -210,6 +214,97 @@ ul li {
     height: 258px;
 }
 
-.img-4,.img-5 {
+.img-4,
+.img-5 {
     height: 237px;
+}
+
+/* part-4 start */
+.part-4-container {
+
+    background-color: rgba(34, 34, 34, 1);
+}
+
+.part-4-sub-conatainer {
+    display: flex;
+    max-width: 85%;
+    margin: 0px auto;
+    justify-content: space-between;
+    gap: 5%;
+    align-items: center;
+    padding-bottom: 5%;
+}
+
+.part-4-box-2 {
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+}
+
+/* .part-4-box-2{
+    margin-left: 20%;
+} */
+.part-4-text {
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+.part-4 p {
+    margin-top: -15px;
+}
+
+.part-4-box {
+    color: white;
+    margin-top: 5%;
+}
+
+.part-4-box table {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+}
+
+.part-4-box tr td,
+th {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px 20px;
+}
+
+.part-4-box tr td {
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+.part-4-box-2 input {
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 4px;
+    border-radius: 5px;
+    border: none;
+}
+
+.input {
+    padding: 10px 65px;
+}
+
+.input-last {
+    padding: 1.5% 32.5%;
+
+}
+.part-5-text{
+    text-align: center;
+}
+.mt-p{
+    margin-top: -24px;
+}
+.part-5-img{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 80%;
+    margin: 5% auto;
+    gap: 1%;
+    background-color: rgba(255, 255, 255, 0.1);
+
+}
+.part-5-img img{
+    width: 100%;
+    padding: 20px;
 }
