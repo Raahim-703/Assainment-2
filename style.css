@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: rgba(34, 34, 34, 1);
+    background-color: black;
 }
 
 header {
@@ -107,7 +107,8 @@ ul li {
 }
 
 .box-2 {
-    background-color: rgba(48, 48, 48, 0.54);
+    background-color: rgb(167 161 161 / 54%);
+    /* background-color: rgba(48, 48, 48, 0.54); */
     color: white;
     border-radius: 10px;
     padding: 10px 20px;
@@ -158,18 +159,14 @@ ul li {
 
 }
 
-.part-2 {
-    background-color: rgba(34, 34, 34, 1);
-
-}
-
 .part-2-container {
     max-width: 80%;
     margin: 8% auto;
     display: flex;
     justify-content: space-between;
     background-color: rgba(34, 34, 34, 1);
-
+    padding: 30px 20px;
+    border-radius: 5px;
 }
 
 .part-2-container img {
@@ -188,14 +185,31 @@ ul li {
 
 .part-3-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 250px auto 250px;
     max-width: 100%;
     margin: 0px auto;
+}
+
+.grid-img {
+    display: grid;
+    grid-template-columns: auto 300px 270px;
+    max-width: 100%;
+    margin: 0px auto;
+}
+
+.grid-img img {
+    width: 100%;
 }
 
 .part-3-container img {
     width: 100%;
 }
-.img-1{
-    column-span: 2fr;
+
+.img-1,
+.img-3 {
+    height: 258px;
+}
+
+.img-4,.img-5 {
+    height: 237px;
 }
