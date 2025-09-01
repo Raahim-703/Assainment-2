@@ -289,22 +289,76 @@ th {
     padding: 1.5% 32.5%;
 
 }
-.part-5-text{
+
+.part-5-text {
     text-align: center;
 }
-.mt-p{
+
+.mt-p {
     margin-top: -24px;
 }
-.part-5-img{
-    display:grid;
-    grid-template-columns: repeat(3,1fr);
+
+.part-5-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     max-width: 80%;
     margin: 5% auto;
     gap: 1%;
     background-color: rgba(255, 255, 255, 0.1);
 
 }
-.part-5-img img{
+
+.part-5-img img {
     width: 100%;
     padding: 20px;
 }
+
+/* resonsive webstite */
+@media screen and (max-width:576px) {
+
+    .header-container,
+    .part-1-box,
+    .part-2-container,
+    .part-4-sub-conatainer {
+        flex-direction: column;
+    }
+
+    .part-3-container,
+    .grid-img,
+    .part-5-img {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .part-5-img img{
+        width: 90%;
+    }
+    .header-text,
+    .part-1-box,
+    .part-2-text {
+        max-width: 100%;
+    }
+
+    .part-4-box-2 input{
+        width: 60%;
+    }
+
+    .card img,
+    .part-2-container img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .part-2-container img {
+        margin-top: 20px;
+    }
+}
+
+/* .part-1-box {
+        max-width: 80%;
+        margin: 10% auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+
+    } */
